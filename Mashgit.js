@@ -3,7 +3,6 @@ function Mash() {
     return "You will live in a: " + getHome() + " and you will have: " + getChildrenCount() + " kids"+" and you'll drive in a: "+getCar();
 }
 console.log(Mash());
-
 //Type of Homes
 function getHome(){
     let x = process.argv[2];
@@ -14,7 +13,6 @@ let homes = randomly[home];
 return homes 
 
 }
-
 //Number of child
 function getChildrenCount(){
     let x = process.argv[3];
@@ -27,7 +25,6 @@ function getChildrenCount(){
         return process.argv[3];
     }
     }
-
 //Type of cars
 function getCar(){
     process.arg
@@ -36,5 +33,3 @@ function getCar(){
     let mycar = cars[car];
     return mycar;
 }
-
-
